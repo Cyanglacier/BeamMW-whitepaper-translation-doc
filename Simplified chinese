@@ -20,3 +20,20 @@ of the blockchain, avoiding excessive computational overhead or penalty on perfo
 or scalability while completely concealing the transaction value.
 · 无需额外资源的隐私交易——在BEAM中，隐私交易不会导致区块链过度膨胀（也不再需要类似Zcash一般消耗大量计算力生成零知识证明），避免了过度消耗计算力对
 网络延展性和性能的限制，还能隐藏交易中具体的交易数额。
+
+· No trusted setup required.
+· 不再需要（像Zcash一般）执行Trusted setup（可信环境搭建） 。
+//Trusted setup指：在零知识证明体系中 ，你需要相信一个由其他人生成的零知识证明参数，并且相信生成参数的人已经销毁了参数，没有人知道这个数值具体值。
+//引用自：https://zcoin.io/zcoin-moving-beyond-trusted-setup-in-zerocoin/
+
+· Blocks are mined using Equihash Proof-of-Work algorithm.
+· 通过Equihash工作量证明算法来开采区块。
+
+· Limited emission using periodic halving with total amount of coins ~250 million.
+· 采用周期性减半的代币生成策略，BEAM代币总量为250,000,000枚（2.5亿枚）
+
+· No addresses are stored in the blockchain - no information whatsoever about either the
+sender or the receiver of a transaction is stored in the blockchain.
+· 区块链中不储存地址——任何有关交易发起方和接收方的信息，都不会储存在区块链中。
+//也就是说区块数据中不会包含交易发起方和接收方的相关信息，包括地址。
+
