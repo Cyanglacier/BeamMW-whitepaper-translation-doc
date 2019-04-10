@@ -37,3 +37,6 @@ sender or the receiver of a transaction is stored in the blockchain.
 · 区块链中不储存地址——任何有关交易发起方和接收方的信息，都不会储存在区块链中。
 //也就是说区块数据中不会包含交易发起方和接收方的相关信息，包括地址。
 
+· Superior scalability through compact blockchain size - using the “cut-through” feature of Mimblewimble 
+makes the BEAM blockchain orders of magnitude smaller than any other blockchain implementation.
+· 
